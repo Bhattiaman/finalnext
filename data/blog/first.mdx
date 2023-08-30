@@ -1,58 +1,30 @@
 ---
-title: first 
-date: '2016-03-08'
-tags: ['markdown', 'code', 'features']
+title: Goldman Sachs is Hiring For Summer Analyst / Summer Associate 🤩!
+date: '2022-08-30'
+tags: ['Analyst', 'Associate']
 draft: false
-summary: Example of a markdown file with code blocks and syntax highlighting
+summary: 'The summer analyst internship is for candidates currently pursuing an undergraduate/master’s degree and is usually undertaken during the second...'
 ---
 
-## Introduction 
-Welcome to our blog article, full-stack web developers! We're about to share some really wonderful news with you. The growing Refactor Academy team needs a talented and motivated individual. One of the top web development businesses is Refactor Academy. It may be now that you begin a fantastic career as a full-stack web developer. In this article, we'll go into further detail about the business, the duties of the role, the technologies involved, and the alluring advantages of enrolling in Refactor Academy. Be prepared to start an exciting journey and advance your web development career with Refactor Academy.
-## Company Overview
-#### Refactor Academy
-##### Headquarters: Bengaluru, Karnataka, India
-##### Founded: 2017
-##### CEO: Siddhartha Agarwal
-##### Industry: Education
-##### Products and services:
-##### Bootcamps for aspiring software developers
-##### Placement services for tech companies
-##### Interview coaching and preparation
-##### Skill assessment tools
-##### Payroll and compliance management
-##### Website: *https://www.refactor.academy/*
-##### Refactor Academy is an educational organization that helps people learn the skills they need to succeed in the tech industry. The company offers bootcamps for aspiring software developers, as well as placement services for tech companies. Refactor Academy also provides interview coaching and preparation, skill assessment tools, and payroll and compliance management.
+# Nested Routes
 
+The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the `/data/blog/nested-route` folder.
 
-```json
-{
-  "Company": "Refactor Academy",
-  "Position": "Full Stack Web Developer",
-  "Salary": 6 - 8 LPA,
-  "Location": "Bengaluru",
-  "Qualification": "Bachelor's Degree"
-}
-```
-## Apply Now : 
-> [tithttps://refactor.snaphunt.com/job/OLI0JQVMRI?source=linkedinle](https://refactor.snaphunt.com/job/OLI0JQVMRI?source=linkedin)
+## How
 
-### Your responsibilities will include :
-- Developing nice looking frontend web pages and reusable UI components.
-- Integrating web pages with relevant APIs and API gateway.
-- Designing, building and integrating CRUD APIs.
-- Building responsive and interactive websites using JavaScript and react framework.
-- Working with UI designers to implement Figma designs for frontend pages.
-- Building and deploying progressive web applications using node modules
+Simplify create multiple folders inside the main `/data/blog` folder and add your `.md`/`.mdx` files to them. You can even create something like `/data/blog/nested-route/deeply-nested-route/my-post.md`
 
-### Jobs Description : 
-- Work with other developers, designers, and product managers to convert project requirements into practical web apps.
-- Create high-quality, scalable, and maintainable code by utilising modern web technologies like HTML5, CSS3, JavaScript, and several frameworks (such as React, Angular, and Vue.js).
-- To offer a consistent user experience across all devices and browsers, create user-friendly, responsive web interfaces.
-- Backend systems and APIs can be designed and developed using server-side technologies (like Node.js, Python, and Ruby on Rails) and databases (like MySQL, MongoDB, and PostgreSQL).
-- Performance, dependability, and security of the application should all be thoroughly tested and debugged.
+We use Next.js catch all routes to handle the routing and path creations.
 
-### To Apply : [Refactor Academy](https://refactor.snaphunt.com/job/OLI0JQVMRI?source=linkedin)
+## Use Cases
 
-#### Thank you for your interest!
+Here are some reasons to use nested routes
 
-I hope this helps!
+- More logical content organisation (blogs will still be displayed based on the created date)
+- Multi-part posts
+- Different sub-routes for each author
+- Internationalization (though it would be recommended to use [Next.js built-in i8n routing](https://nextjs.org/docs/advanced-features/i18n-routing))
+
+## Note
+
+- The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.
