@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Jobs4Engineers',
+  author: 'Mr. Aman Bhatti',
+  headerTitle: 'Jobs4Engineers',
+  description: '"Jobs4Engineer" is where you will find all the latest job applications currently published in IT Industry. If you are interested in an IT Industry job then this Blog is for you...',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -12,11 +12,11 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  github: 'https://github.com/Bhattiaman',
+  twitter: 'https://twitter.com/Aman16235270',
   facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  youtube: 'https://www.youtube.com/@cu3661',
+  linkedin: 'https://www.linkedin.com/in/amanbhatti01/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
