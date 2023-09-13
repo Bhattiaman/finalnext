@@ -18,6 +18,7 @@ const siteMetadata = {
   youtube: 'https://www.youtube.com/@cu3661',
   linkedin: 'https://www.linkedin.com/in/amanbhatti01/',
   locale: 'en-US',
+  
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
